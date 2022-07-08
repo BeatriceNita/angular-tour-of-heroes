@@ -18,7 +18,7 @@ export class DashboardComponent implements OnInit {
 
   getHeroes(): void {
       this.heroService.getHeroes()
-          .subscribe(heroes => this.heroes = heroes.slice(1, 5)); //to retrieve only top heroes
+          .subscribe(heroes => this.heroes = heroes.slice(1, 5)); //we slice the heroes array to retrieve only top heroes
   }
 
 }
