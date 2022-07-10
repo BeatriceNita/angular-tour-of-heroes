@@ -1,4 +1,8 @@
 /* HeroDetailComponent's private CSS styles */
+h2 {
+  margin-top: 30px;
+}
+
 label {
   color: #435960;
   font-weight: bold;

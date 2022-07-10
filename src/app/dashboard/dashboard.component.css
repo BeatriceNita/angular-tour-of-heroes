@@ -1,7 +1,7 @@
 /* DashboardComponent's private CSS styles */
-
 h2 {
   text-align: center;
+  margin-top: 50px;
 }
 
 .heroes-menu {
